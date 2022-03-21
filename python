@@ -1,0 +1,12 @@
+num = int ( input ( 'Digite um número:' ))
+lista = []
+div=  2
+while  num  > 1 :
+	if  num % div  ==  0 :
+	  num  =  num / div
+	  lista.append (div)
+	else :
+		div  +=  1
+print(lista)
+if num < 0:
+  print('O número não faz parte do conjunto de números inteiros positivos')
